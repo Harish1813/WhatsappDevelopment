@@ -30,6 +30,7 @@ public class DuplicateLead {
 			} 
 			else 
 				System.out.println("The title doesnot have word Duplicate Lead");
+		System.out.print("New vedio added")
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		driver.close();
 	}
